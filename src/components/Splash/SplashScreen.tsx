@@ -12,7 +12,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ finishLoading }) => {
   useEffect(() => {
     const animate = () => {
       anime.timeline({
-        complete: () => finishLoading(), // Calls finishLoading after animation
+        complete: () => finishLoading(),
       })
       .add({
         targets: '#logo',

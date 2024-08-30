@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function login() {
+export default function page() {
   return (
     <div>
-      
+      Form page
     </div>
   )
 }
